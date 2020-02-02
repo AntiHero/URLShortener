@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://nightcrawler:hero@url-z9r0n.mongodb.net/url-app?retryWrites=true&w=majority",
+  "jwtSecret": "zero help studio",
+  "baseUrl": "http://localhost:5000"
+}

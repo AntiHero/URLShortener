@@ -1,0 +1,181 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+body, html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+  background-color: rgb(250, 255, 176);
+}
+
+.heading {
+  font-weight: 600;
+  margin-top: 100px;
+  color: violet;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.auth__login-btn {
+  margin-right: 10px;
+}
+
+.auth .card-action {
+  padding-top: 0;
+}
+
+.auth .card-content {
+  padding-bottom: 0;
+}
+
+input[type="password"]:not(.browser-default):focus:not([readonly]),
+input[type="email"]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid rgb(229, 240, 78);
+}
+
+input[type="password"]:not(.browser-default):focus:not([readonly]) + label,
+input[type="email"]:not(.browser-default):focus:not([readonly]) + label {
+  color: rgb(229, 240, 78);
+}
+
+input[type="text"]:not(.browser-default):focus:not([readonly]) + label {
+  color: rgb(253, 155, 201);
+}
+
+input[type=email]:not(.browser-default),
+input[type=password]:not(.browser-default) {
+  background-color: transparent !important;
+  border-bottom-color: #ffffff;
+  color: #ffffff;
+}
+
+input[type=text]:not(.browser-default) {
+  background-color: transparent !important;
+  border-bottom: 1px solid #82bcff;
+  color: rgb(26, 26, 26);
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid rgb(253, 155, 201);
+  box-shadow: 0 1px 0 0 rgb(253, 155, 201);
+  font-weight: 600;
+  font-size: 26px;
+}
+
+input[type=email]:not(.browser-default) + label,
+input[type=password]:not(.browser-default) + label {
+  color: #ffffff;
+}
+
+input[type=text]:not(.browser-default) + label {
+  color: #82bcff;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+input[type=email]:not(.browser-default)::placeholder,
+input[type=text]:not(.browser-default)::placeholder,
+input[type=password]:not(.browser-default)::placeholder {
+  color: rgb(248, 203, 231);
+}
+
+.auth input:-webkit-autofill{
+  background-color: transparent !important;
+}
+
+.navigation {
+  padding: 0 2rem;
+  font-weight: 600;
+}
+
+.navigation ul li a {
+  text-transform: uppercase;
+}
+
+.container {
+  height: calc(86vh - 150px);
+}
+
+.create-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.create-link-wrapper {
+  margin: 0 auto !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.create-link-wrapper .button {
+  max-width: 200px;
+}
+
+.create-link-wrapper .input-field,
+.create-link-wrapper .btn-large{
+  width: 100%;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.loader .progress{
+  width: 200px;
+  background-color: #82bcff;
+}
+
+.loader .progress .indeterminate{
+ background-color: rgb(248, 203, 231);
+}
+
+.link-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: calc(40vh - 150px);
+}
+
+.no-links {
+  font-size: 26px;
+  color: violet;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-top: calc(50vh - 150px);
+  font-weight: 600;
+}
+
+.link-card-table tr td {
+  color: violet;
+  font-size: 18px;
+}
+
+.link-card-table tr td a {
+  color: violet;
+  font-weight: 600;
+}
+
+.link-list-table tr td,
+.link-list-table tr,
+.link-card-table tr td,
+.link-card-table tr {
+  font-size: 18px;
+}
+
+.link-list-table tr td{
+  color: rgb(102, 177, 247);
+  font-weight: 600;
+}
+
